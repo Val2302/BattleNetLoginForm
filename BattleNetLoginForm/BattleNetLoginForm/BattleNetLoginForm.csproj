@@ -103,5 +103,13 @@
     <Resource Include="Source\PassiveCross.png" />
     <Resource Include="Source\PassiveDash.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\ActiveGlobe.png" />
+    <Resource Include="Source\PassiveGlobe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\ActiveArrow.png" />
+    <Resource Include="Source\PassiveArrow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
