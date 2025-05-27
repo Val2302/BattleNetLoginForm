@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55B9BF72-4BE8-42FD-88B2-EBBC2B4AC1C1}</ProjectGuid>
+    <ProjectGuid>{A76C4E49-5F3C-490C-9CEC-00DDBEE6BF4F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BattleNetLoginForm</RootNamespace>
     <AssemblyName>BattleNetLoginForm</AssemblyName>
@@ -93,6 +93,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\ActiveCross.png" />
+    <Resource Include="Source\ActiveDash.png" />
+    <Resource Include="Source\PassiveCross.png" />
+    <Resource Include="Source\PassiveDash.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
